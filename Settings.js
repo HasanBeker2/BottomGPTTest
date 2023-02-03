@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 const SettingsScreen = () => {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>This is the Settings Screen</Text>
+      <Text style ={{fontSize:25,fontWeight:'bold'}}>This is the Settings Screen</Text>
     </View>
   );
 };

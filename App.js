@@ -2,12 +2,13 @@ import React from 'react';
 import { View } from 'react-native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import { NavigationContainer } from '@react-navigation/native';
 
 import SettingsScreen from './Settings';
 import MenuScreen from './Menu';
 import FotosScreen from './Fotos';
 import InfoScreen from './Info';
-import { NavigationContainer } from '@react-navigation/native';
+
 
 const Tab = createMaterialBottomTabNavigator();
 
